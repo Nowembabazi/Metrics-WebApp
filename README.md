@@ -130,6 +130,7 @@ To get a local copy up and running follow these simple example steps.
 ### `$ npm install`
 Installs the modules and dependancies required to start the project
 
+
 ### `npm start`
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
