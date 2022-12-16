@@ -11,13 +11,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #d6eaf8;
-  padding: 2rem 0;
+  background-color: #e8ecee;
+  padding: 3rem 0;
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
+  width: 6px;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -25,27 +25,27 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.5);
-  border-radius: 3px;
-  width: 5px;
-  height: 5px;
+  background: rgba(218, 214, 214, 0.5);
+  border-radius: 4px;
+  width: 6px;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #fff;
+  background: rgb(223, 217, 217);
 }
 
-.data-cont {
+.data-1 {
   width: 450px;
-  background-color: #3498db;
-  padding-bottom: 25px;
-  border: 2px solid #d35400;
-  border-radius: 8px;
+  background-color: #2997e0;
+  padding-bottom: 26px;
+  border: 3px solid #e05f09;
+  border-radius: 10px;
 }
 
 @media (max-width: 600px) {
-  .data-cont {
-    width: calc(100vw - 40px);
-    margin: 0 auto;
+  .data-1 {
+    width: calc(100vw - 38px);
+    margin: 1 auto;
   }
 }

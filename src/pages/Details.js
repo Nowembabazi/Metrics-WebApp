@@ -14,7 +14,7 @@ const Details = () => {
     dispatch(FetchDetailsFunc(coinId));
   }, []);
   return (
-    <div className="data-cont">
+    <div className="data-1">
       <Header path="details" />
 
       {details && (
@@ -24,42 +24,42 @@ const Details = () => {
         count={`${parseFloat(details.changePercent24Hr || 0).toFixed(8)} %`}
       />
       )}
-      <h3 className="coins-title">Coin Description</h3>
+      <h4 className="coins-abt">Coin Description</h4>
       {details && (
-      <ul className="details-cont">
-        <li className="details-light">
+      <ul className="details-abt">
+        <li className="details-color-1">
           <span>Name :</span>
           <span>{details.name}</span>
         </li>
-        <li className="details-dark">
+        <li className="details-color-2">
           <span>Symbol :</span>
           <span>{details.symbol}</span>
         </li>
-        <li className="details-light">
+        <li className="details-color-1">
           <span>Rank :</span>
           <span>{details.rank}</span>
         </li>
-        <li className="details-dark">
+        <li className="details-color-2">
           <span>Supply :</span>
           <span>{details.supply}</span>
         </li>
-        <li className="details-light">
+        <li className="details-color-1">
           <span>Market Capital(USD) :</span>
           <span>{details.marketCapUsd}</span>
         </li>
-        <li className="details-dark">
+        <li className="details-color-2">
           <span>Volume(USD) 24Hrs :</span>
           <span>{details.volumeUsd24Hr}</span>
         </li>
-        <li className="details-light">
+        <li className="details-color-1">
           <span>Price(USD) :</span>
           <span>{details.priceUsd}</span>
         </li>
-        <li className="details-dark">
+        <li className="details-color-2">
           <span>Change Percent(24Hr) :</span>
           <span>{details.changePercent24Hr}</span>
         </li>
-        <li className="details-light">
+        <li className="details-color-1">
           <span>VWAP(24Hr) :</span>
           <span>{details.vwap24Hr}</span>
         </li>

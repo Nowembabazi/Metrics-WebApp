@@ -4,14 +4,14 @@ import PropTypes from 'prop-types';
 import chart from '../assets/chart.png';
 
 const Chart = ({ title1, title2, count }) => (
-  <div className="chart-cont">
-    <div className="chart-img"><img src={chart} alt="chart" /></div>
-    <div className="chart-text">
-      <h1>
+  <div className="content">
+    <div className="image-ch"><img src={chart} alt="chart" /></div>
+    <div className="text-ch">
+      <h2>
         {title1}
         <br />
         {title2}
-      </h1>
+      </h2>
       <p>{count}</p>
     </div>
   </div>
