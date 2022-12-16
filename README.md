@@ -99,9 +99,9 @@
 
 ## 🚀 Live Demo and Video Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://deploy-preview-4--candid-mochi-26fb98.netlify.app)
 
-- [Video Demo Link]()
+- [Video Demo Link](https://www.loom.com/share/32d69c7d149e4b51ae12b1ccb1139cec)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,6 +129,7 @@ To get a local copy up and running follow these simple example steps.
 ## Run project
 ### `$ npm install`
 Installs the modules and dependancies required to start the project
+
 
 ### `npm start`
 Runs the app in the development mode.\

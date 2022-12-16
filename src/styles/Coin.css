@@ -1,49 +1,49 @@
-.coin-card {
+.coin-1 {
   display: flex;
   flex-direction: column;
-  row-gap: 5px;
-  padding: 10px;
+  row-gap: 6px;
+  padding: 12px;
   outline: none;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(15, 15, 15, 0.05);
   border: 1px solid #e5e7e9;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 
-.coin-card svg {
+.coin-1 svg {
   margin-left: auto;
   cursor: pointer;
 }
 
-.coin-card h2 {
+.coin-1 h2 {
   font-family: "Lato", sans-serif;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 580;
   line-height: 1.1;
   text-align: start;
 }
 
-.coin-card h4 {
+.coin-1 h4 {
   font-family: "Lato", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: 580;
   line-height: 1.1;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(15, 15, 15, 0.5);
 }
 
-.coin-name {
-  color: #fff;
+.coin-2 {
+  color: rgb(230, 218, 218);
 }
 
-.coin-symbol {
-  color: rgba(255, 255, 255, 0.8);
+.coin-3 {
+  color: rgba(241, 232, 232, 0.8);
 }
 
 @media (max-width: 600px) {
-  .coin-card h2 {
-    font-size: 16px;
+  .coin-1 h2 {
+    font-size: 15px;
   }
 
-  .coin-card h4 {
-    font-size: 12px;
+  .coin-1 h4 {
+    font-size: 14px;
   }
 }

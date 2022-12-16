@@ -1,35 +1,41 @@
-.coins-title {
-  width: calc(100% - 40px);
-  padding: 10px 10px;
-  margin: 0 10px 1px 10px;
+.coins-abt {
+  width: calc(100% - 38px);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin: 1 12px 1px 12px;
   font-family: "Lato", sans-serif;
-  background-color: #d6eaf8;
-  font-size: 16px;
-  font-weight: 500;
+  background-color: #cfd5da;
+  font-size: 15px;
+  font-weight: 490;
   border: none;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 ::placeholder {
-  color: #000;
+  color: rgb(34, 33, 33);
 }
 
-.coin-card-cont {
-  padding: 0 5px 0 10px;
+.coin-card-1 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 6px;
+  padding-right: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: calc(100vh - 19rem);
+  height: calc(100vh - 20rem);
   overflow: auto;
 }
 
 @media (max-width: 600px) {
-  .coin-card-cont {
-    height: 300px;
+  .coin-card-1 {
+    height: 310px;
   }
 
-  .coins-title {
-    width: calc(100% - 40px);
-    font-size: 14px;
-    font-weight: 500;
+  .coins-abt {
+    width: calc(100% - 38px);
+    font-size: 16px;
+    font-weight: 480;
   }
 }

@@ -2,10 +2,10 @@
 
 exports[`Details page check details elements 1`] = `
 <div
-  className="data-cont"
+  className="data-1"
 >
   <nav
-    className="nav-cont"
+    className="nav-1"
   >
     <ul>
       <li>
@@ -29,13 +29,13 @@ exports[`Details page check details elements 1`] = `
           </svg>
         </a>
         <span
-          className="date-wrapper"
+          className="date-no"
         >
           2022
         </span>
       </li>
       <li
-        className="stats-wrapper"
+        className="stats-about"
       >
         CryptoCurrencies
       </li>
@@ -70,10 +70,10 @@ exports[`Details page check details elements 1`] = `
     </ul>
   </nav>
   <div
-    className="chart-cont"
+    className="content"
   >
     <div
-      className="chart-img"
+      className="image-ch"
     >
       <img
         alt="chart"
@@ -81,26 +81,26 @@ exports[`Details page check details elements 1`] = `
       />
     </div>
     <div
-      className="chart-text"
+      className="text-ch"
     >
-      <h1>
+      <h2>
         <br />
-      </h1>
+      </h2>
       <p>
         0.00000000 %
       </p>
     </div>
   </div>
-  <h3
-    className="coins-title"
+  <h4
+    className="coins-abt"
   >
     Coin Description
-  </h3>
+  </h4>
   <ul
-    className="details-cont"
+    className="details-abt"
   >
     <li
-      className="details-light"
+      className="details-color-1"
     >
       <span>
         Name :
@@ -108,7 +108,7 @@ exports[`Details page check details elements 1`] = `
       <span />
     </li>
     <li
-      className="details-dark"
+      className="details-color-2"
     >
       <span>
         Symbol :
@@ -116,7 +116,7 @@ exports[`Details page check details elements 1`] = `
       <span />
     </li>
     <li
-      className="details-light"
+      className="details-color-1"
     >
       <span>
         Rank :
@@ -124,7 +124,7 @@ exports[`Details page check details elements 1`] = `
       <span />
     </li>
     <li
-      className="details-dark"
+      className="details-color-2"
     >
       <span>
         Supply :
@@ -132,7 +132,7 @@ exports[`Details page check details elements 1`] = `
       <span />
     </li>
     <li
-      className="details-light"
+      className="details-color-1"
     >
       <span>
         Market Capital(USD) :
@@ -140,7 +140,7 @@ exports[`Details page check details elements 1`] = `
       <span />
     </li>
     <li
-      className="details-dark"
+      className="details-color-2"
     >
       <span>
         Volume(USD) 24Hrs :
@@ -148,7 +148,7 @@ exports[`Details page check details elements 1`] = `
       <span />
     </li>
     <li
-      className="details-light"
+      className="details-color-1"
     >
       <span>
         Price(USD) :
@@ -156,7 +156,7 @@ exports[`Details page check details elements 1`] = `
       <span />
     </li>
     <li
-      className="details-dark"
+      className="details-color-2"
     >
       <span>
         Change Percent(24Hr) :
@@ -164,7 +164,7 @@ exports[`Details page check details elements 1`] = `
       <span />
     </li>
     <li
-      className="details-light"
+      className="details-color-1"
     >
       <span>
         VWAP(24Hr) :

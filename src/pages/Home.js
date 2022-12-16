@@ -19,14 +19,14 @@ const Home = () => {
 
   const handleDetails = (id) => navigate(`/details/${id}`);
   return (
-    <div data-testid="intro-page" className="data-cont">
+    <div data-testid="intro-page" className="data-1">
       <Header path="/" />
       <Chart title1="Crypto" title2="Currencies" count={`${coins.length} Coins`} />
 
       <div>
 
         <input
-          className="coins-title"
+          className="coins-abt"
           type="text"
           value={search.get('filter') || ''}
           placeholder="Search by Crypto name  eg : BNB"
@@ -39,7 +39,7 @@ const Home = () => {
             }
           }}
         />
-        <div className="coin-card-cont">
+        <div className="coin-card-1">
           {coins
             .filter((coin) => {
               const filter = search.get('filter');
