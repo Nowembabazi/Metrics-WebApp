@@ -99,7 +99,7 @@
 
 ## 🚀 Live Demo and Video Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://candid-mochi-26fb98.netlify.app/)
 
 - [Video Demo Link]()
 
